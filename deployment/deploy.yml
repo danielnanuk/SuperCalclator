@@ -1,0 +1,7 @@
+---
+- hosts: prod-servers
+  remote_user: root
+
+  tasks:
+    - name: Push Artifact to Remote Host
+      copy: src=/home/devops/git/SuperCalculator-04/deployment/files/SuperCalculator.war dest=/opt/apache-tomcat/webapps/SuperCalculator.war force=yes

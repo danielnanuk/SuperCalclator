@@ -1,0 +1,62 @@
+buildscript {
+    repositories {
+        mavenCentral ()
+    }
+    dependencies {
+        classpath 'mysql:mysql-connector-java:5.1.16'
+        classpath 'com.thoughtworks.tools:dependency-check:0.0.5'
+    }
+}
+
+plugins {
+    id 'net.saliman.cobertura' version '2.2.8'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'jetty'
+apply plugin: 'checkstyle'
+apply plugin: 'sonar-runner'
+apply plugin: 'dependency.check'
+
+repositories {
+    mavenCentral ()
+    maven { url "http://repo.spring.io/snapshot" }
+    maven { url "http://repo.spring.io/milestone" }
+}
+
+dependencies {
+    compile 'org.springframework:spring-webmvc:3.1.1.RELEASE'
+    testCompile 'org.slf4j:slf4j-api:1.7.12'
+    testCompile 'junit:junit:4.12'
+}
+
+cobertura {
+    coverageCheckPackageBranchRate = 30
+    coverageCheckPackageLineRate = 30
+    coverageCheckHaltOnFailure = true
+    coverageFormats = ['html', 'xml']
+}
+
+war {
+    baseName = 'SuperCalculator'
+}
+
+jettyRun {
+    httpPort = 8090
+}
+
+task wrapper (type: Wrapper) {
+    gradleVersion = '2.4'
+}
+
+sonarRunner {
+    sonarProperties {
+        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.jdbc.url", "jdbc:mysql://localhost:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
+        property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
+        property "sonar.jdbc.username", "sonar"
+        property "sonar.jdbc.password", "sonar"
+        property "sonar.cobertuna.reportPath", "${project.buildDir}/reports/cobertuna/coverage.xml"
+    }
+}

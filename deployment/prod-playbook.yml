@@ -1,0 +1,22 @@
+---
+- hosts: prod-servers
+  remote_user: root
+
+  tasks:
+    - name: Install java-1.7.0-openjdk
+      yum: name=java-1.7.0-openjdk state=present
+
+    - name: Download Tomcat Package
+      get_url: url=http://mirrors.cnnic.cn/apache/tomcat/tomcat-7/v7.0.63/bin/apache-tomcat-7.0.63.tar.gz dest=/opt/apache-tomcat-7.0.63.tar.gz
+
+    - name: Extract Tomcat Package
+      unarchive: src=/opt/apache-tomcat-7.0.63.tar.gz dest=/opt copy=no # owner=tomcat group=tomcat
+
+    - name: Install Tomcat Init Script
+      copy: src=files/tomcat-initscript.sh dest=/etc/init.d/tomcat mode=0755
+
+    - name: Symlink tomcat install directory
+      file: src=/opt/apache-tomcat-7.0.63 path=/opt/apache-tomcat state=link
+
+    - name: Start Tomcat
+      service: name=tomcat state=started enabled=yes
