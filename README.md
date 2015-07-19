@@ -1,0 +1,2 @@
+# SuperCalclator
+CI test
