@@ -22,9 +22,9 @@ public class FactorialTest {
 
         Factorial factorial = new Factorial();
 
-        int result = factorial.factorialSum(3);
+        int result = factorial.factorialSum(4);
 
-        assertThat(result, is(9));
+        assertThat(result, is(36));
 
 
     }

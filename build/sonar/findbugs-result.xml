@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1437270035000" analysisTimestamp="1437277352018" release="">
+  <Project>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/controller/FactorialController.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/controller/HomepageController.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/controller/PlusController.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/controller/SubtractController.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/domain/Calculator.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/domain/Factorial.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/domain/Plus.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/domain/Subtract.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/src/main/java/thoughtworks/model/CalculateForm.java</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/controller/FactorialController.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/controller/HomepageController.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/controller/PlusController.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/controller/SubtractController.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/domain/Calculator.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/domain/Factorial.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/domain/Plus.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/domain/Subtract.class</Jar>
+    <Jar>/Users/daniel/git/SuperCalculator-04/build/classes/main/thoughtworks/model/CalculateForm.class</Jar>
+    <AuxClasspathEntry>/Users/daniel/git/SuperCalculator-04/build/classes/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/git/SuperCalculator-04/build/resources/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.1.1.RELEASE/6ae6968aa19f6d25cdcd38213046e11cc5189e84/spring-webmvc-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-asm/3.1.1.RELEASE/8717ad8947fcada5c55da89eb474bf053c30e57/spring-asm-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/3.1.1.RELEASE/83d0e5adc98714783f0fb7d8a5e97ef4cf08da49/spring-beans-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/3.1.1.RELEASE/ecb0784a0712c1bfbc1c2018eeef6776861300e4/spring-context-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context-support/3.1.1.RELEASE/fc5de9fead1e54054298d37b196f9cd64ced19bf/spring-context-support-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/3.1.1.RELEASE/419e9233c8d55f64a0c524bb94c3ba87e51e7d95/spring-core-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/3.1.1.RELEASE/1486d7787ec4ff8da8cbf8752d30e4c808412b3f/spring-expression-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/3.1.1.RELEASE/7b18bbab94119e8ae322e8599c067c4f4b3701f6/spring-web-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/3.1.1.RELEASE/3c86058cdaea30df35e4b951a615e09eb07da589/spring-aop-3.1.1.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/git/SuperCalculator-04/build/sonar/findbugs/annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/daniel/git/SuperCalculator-04/build/sonar/findbugs/jsr305.jar</AuxClasspathEntry>
+    <WrkDir>/Users/daniel/git/SuperCalculator-04/build/sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sun, 19 Jul 2015 09:40:35 +0800" total_classes="9" referenced_classes="24" total_bugs="0" total_size="89" num_packages="3" java_version="1.8.0_40" vm_version="25.40-b25" cpu_seconds="6.47" clock_seconds="1.56" peak_mbytes="438.99" alloc_mbytes="3641.00" gc_seconds="0.15">
+    <FileStats path="thoughtworks/controller/FactorialController.java" bugCount="0" size="12"/>
+    <FileStats path="thoughtworks/controller/HomepageController.java" bugCount="0" size="5"/>
+    <FileStats path="thoughtworks/controller/PlusController.java" bugCount="0" size="15"/>
+    <FileStats path="thoughtworks/controller/SubtractController.java" bugCount="0" size="15"/>
+    <FileStats path="thoughtworks/domain/Calculator.java" bugCount="0" size="2"/>
+    <FileStats path="thoughtworks/domain/Factorial.java" bugCount="0" size="13"/>
+    <FileStats path="thoughtworks/domain/Plus.java" bugCount="0" size="5"/>
+    <FileStats path="thoughtworks/domain/Subtract.java" bugCount="0" size="5"/>
+    <FileStats path="thoughtworks/model/CalculateForm.java" bugCount="0" size="17"/>
+    <PackageStats package="thoughtworks.controller" total_bugs="0" total_types="4" total_size="47">
+      <ClassStats class="thoughtworks.controller.FactorialController" sourceFile="FactorialController.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="thoughtworks.controller.HomepageController" sourceFile="HomepageController.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="thoughtworks.controller.PlusController" sourceFile="PlusController.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="thoughtworks.controller.SubtractController" sourceFile="SubtractController.java" interface="false" size="15" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="thoughtworks.domain" total_bugs="0" total_types="4" total_size="25">
+      <ClassStats class="thoughtworks.domain.Calculator" sourceFile="Calculator.java" interface="true" size="2" bugs="0"/>
+      <ClassStats class="thoughtworks.domain.Factorial" sourceFile="Factorial.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="thoughtworks.domain.Plus" sourceFile="Plus.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="thoughtworks.domain.Subtract" sourceFile="Subtract.java" interface="false" size="5" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="thoughtworks.model" total_bugs="0" total_types="1" total_size="17">
+      <ClassStats class="thoughtworks.model.CalculateForm" sourceFile="CalculateForm.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="306" invocations="326" avgMicrosecondsPerInvocation="939" maxMicrosecondsPerInvocation="172768" standardDeviationMircosecondsPerInvocation="9564"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="65" invocations="337" avgMicrosecondsPerInvocation="195" maxMicrosecondsPerInvocation="1103" standardDeviationMircosecondsPerInvocation="142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="41" invocations="24" avgMicrosecondsPerInvocation="1718" maxMicrosecondsPerInvocation="9687" standardDeviationMircosecondsPerInvocation="2914"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="38" invocations="24" avgMicrosecondsPerInvocation="1601" maxMicrosecondsPerInvocation="35264" standardDeviationMircosecondsPerInvocation="7022"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="35" invocations="98" avgMicrosecondsPerInvocation="367" maxMicrosecondsPerInvocation="16858" standardDeviationMircosecondsPerInvocation="1722"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="34" invocations="84" avgMicrosecondsPerInvocation="410" maxMicrosecondsPerInvocation="3646" standardDeviationMircosecondsPerInvocation="599"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="28" invocations="24" avgMicrosecondsPerInvocation="1203" maxMicrosecondsPerInvocation="12221" standardDeviationMircosecondsPerInvocation="2554"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="24" invocations="293" avgMicrosecondsPerInvocation="85" maxMicrosecondsPerInvocation="1294" standardDeviationMircosecondsPerInvocation="167"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="19" invocations="23" avgMicrosecondsPerInvocation="845" maxMicrosecondsPerInvocation="12396" standardDeviationMircosecondsPerInvocation="2513"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="18" invocations="23" avgMicrosecondsPerInvocation="823" maxMicrosecondsPerInvocation="12587" standardDeviationMircosecondsPerInvocation="2535"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="17" invocations="24" avgMicrosecondsPerInvocation="715" maxMicrosecondsPerInvocation="6282" standardDeviationMircosecondsPerInvocation="1387"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="16" invocations="23" avgMicrosecondsPerInvocation="735" maxMicrosecondsPerInvocation="10034" standardDeviationMircosecondsPerInvocation="2069"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="16" invocations="23" avgMicrosecondsPerInvocation="731" maxMicrosecondsPerInvocation="10279" standardDeviationMircosecondsPerInvocation="2049"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="16" invocations="24" avgMicrosecondsPerInvocation="673" maxMicrosecondsPerInvocation="4087" standardDeviationMircosecondsPerInvocation="1212"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="24" avgMicrosecondsPerInvocation="656" maxMicrosecondsPerInvocation="7535" standardDeviationMircosecondsPerInvocation="1562"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectMethodsReturningImmutableCollections" totalMilliseconds="12" invocations="24" avgMicrosecondsPerInvocation="509" maxMicrosecondsPerInvocation="4388" standardDeviationMircosecondsPerInvocation="1053"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="11" invocations="24" avgMicrosecondsPerInvocation="477" maxMicrosecondsPerInvocation="2533" standardDeviationMircosecondsPerInvocation="706"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="11" invocations="23" avgMicrosecondsPerInvocation="491" maxMicrosecondsPerInvocation="5217" standardDeviationMircosecondsPerInvocation="1035"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

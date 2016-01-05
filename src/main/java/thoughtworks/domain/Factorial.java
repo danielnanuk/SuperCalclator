@@ -22,17 +22,14 @@ public class Factorial {
         for (int i = 1; i <= firstNumber; i++) {
             result *= i;
         }
-
         return result;
     }
 
     public int factorialSum(int factor) {
-        int result = 0;
-        for (int i = 1; i <= factor; i++) {
-                result += factorial(i);
+        if(factor == 1){
+            return 1;
         }
-        return result;
-
+        return factorial(factor)*3/2;
     }
 
 

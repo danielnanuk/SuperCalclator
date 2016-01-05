@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="thoughtworks.domain.FactorialTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-07-18T07:50:45" hostname="devops-VirtualBox" time="0.001">
+<testsuite name="thoughtworks.domain.FactorialTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-07-19T08:21:38" hostname="Daniels-MacBook-Pro.local" time="0.0030">
   <properties/>
-  <testcase name="fours_factorial_is_sixteen" classname="thoughtworks.domain.FactorialTest" time="0.001"/>
+  <testcase name="fours_factorial_is_sixteen" classname="thoughtworks.domain.FactorialTest" time="0.0030"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
